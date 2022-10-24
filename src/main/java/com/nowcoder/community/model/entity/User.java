@@ -6,7 +6,7 @@ import java.util.Date;
  * @author: jellmo
  * @date: 2022/10/8 21:46
  */
-public class UserEntity {
+public class User {
 
     private Integer id;
     private String username;
