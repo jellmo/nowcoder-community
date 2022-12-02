@@ -13,7 +13,7 @@
         <if test="userId!=0">
            and user_id = #{userId}
         </if>
-        limit #{offset}, {limit}
+        limit #{offset}, #{limit}
     </select>
 
     <select id="selectDiscussPostRows" resultType="integer">

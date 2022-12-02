@@ -1,12 +1,13 @@
 package com.nowcoder.community.model.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * @author: jellmo
  * @date: 2022/10/8 21:55
  */
-public class DiscussPost {
+public class DiscussPost implements Serializable {
 
     private Integer id;
     private Integer userId;
